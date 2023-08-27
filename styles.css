@@ -12,7 +12,17 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    
+    box-sizing: border-box;
   }
+
+  .fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
   .nav-item {
     margin-right: 30px;
   }
@@ -46,6 +56,11 @@ body {
     width: calc(100% / 3 - 20px);
     margin: 10px;
     text-align: center;
+  }
+
+  .portfolio-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
   }
 
   #portfolio h2 {
