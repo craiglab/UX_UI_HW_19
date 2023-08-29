@@ -4,18 +4,21 @@
   <meta charset="UTF-8">
   <title>Craig Biesinger - UX Designer</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
   <!-- Navigation Bar -->
   <nav id="navbar">
     <div id="nav-left">
-      <span class="nav-item">Home</span>
+      <span class="nav-item">HOME</span>
     </div>
     <div id="nav-right">
-      <span class="nav-item">Portfolio</span>
-      <span class="nav-item">About</span>
-      <span class="nav-item">Contact</span>
+      <span class="nav-item">PORTFOLIO</span>
+      <span class="nav-item">ABOUT</span>
+      <span class="nav-item">CONTACT</span>
     </div>
   </nav>
 
@@ -23,13 +26,13 @@
   <section id="hero">
     <img src="Assets/img-0878jpeg@2x.png" alt="Portrait of Craig Biesinger">
     <h1>Craig Biesinger</h1>
-    <p>UX Designer</p>
+    <h3>UX Designer</h3>
   </section>
 
   <!-- Portfolio Section -->
   <!-- My UX Portfolio section coded using CSS flex -->
   <section id="portfolio">
-    <h2>Portfolio</h2>
+    <h2>PORTFOLIO</h2>
     <div class="flexContainer"> 
         <div class="portfolio-item">
           <img src="Assets/splash20screenpng@2x.png" alt="Pantry Pal">
@@ -58,7 +61,7 @@
   <!-- About Me Section -->
   <!-- I didn't add any flex since it's just text -->
   <section id="about">
-    <h2>About Me</h2>
+    <h2>ABOUT ME</h2>
     <p>I like to craft experiences that make people smile. Or at the very least get a little 
         hit of dopamine. I like solving problems to make life a little easier and enjoyable for 
         users. I use Figma, Djay Pro, and other tools to make ideas come to life.
@@ -80,10 +83,14 @@
 
   <!-- Contact Section -->
   <section id="contact">
-    <h2>Contact</h2>
-    <form id="contact-form">
+    <h2>CONTACT</h2>
+    <p>Let's create something extraordinary together! If you like what you see and want to team up for a project or just say hi, I'd love to hear from you.</p>
+    <button id="cta-button">Let's Connect!</button>
+    <form id="contact-form" class="hidden">
       <input type="text" placeholder="Name">
       <input type="email" placeholder="Email">
+      <br>
+      <textarea placeholder="Message"></textarea>
       <input type="submit" value="Send">
     </form>
   </section>
@@ -91,12 +98,12 @@
   <!-- Footer -->
   <footer id="footer">
     <div id="footer-left">
-      <span class="footer-item">Home</span>
+      <span class="footer-item">HOME</span>
     </div>
     <div id="footer-right">
-      <span class="footer-item">Portfolio</span>
-      <span class="footer-item">About</span>
-      <span class="footer-item">Contact</span>
+      <span class="footer-item">PORTFOLIO</span>
+      <span class="footer-item">ABOUT</span>
+      <span class="footer-item">CONTACT</span>
     </div>
     <div id="copyright">
       <span>© 2023 Craig Biesinger</span>

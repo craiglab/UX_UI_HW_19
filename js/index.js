@@ -12,3 +12,11 @@ window.addEventListener('scroll', function() {
     navbar.classList.remove('fixed-nav');
   }
 });
+document.addEventListener('DOMContentLoaded', function() {
+    const ctaButton = document.getElementById('cta-button');
+    const contactForm = document.getElementById('contact-form');
+  
+    ctaButton.addEventListener('click', function() {
+      contactForm.classList.toggle('hidden');
+    });
+  });
