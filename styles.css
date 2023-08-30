@@ -27,7 +27,7 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
     box-sizing: border-box;
   }
 
@@ -42,6 +42,12 @@ body {
     margin-right: 30px;
   }
   
+  .nav-item img {
+    max-width: 100px;  /* You can adjust this as needed */
+    max-height: 50px; /* You can adjust this as needed */
+    vertical-align: middle;
+  }
+
   /* Hero Section */
   #hero {
     background-color: black;
@@ -167,12 +173,10 @@ body {
     color: white;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
-  .footer-item {
-    margin-right: 30px;
-  }
+
   #copyright {
     margin-top: 10px;
     text-align: center;
